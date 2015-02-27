@@ -1,6 +1,6 @@
 1. What git command creates a bare repository named `itx-acq-mspc`
-   inside 10.37.49.28://app/test on ITx-acq VPCx? Assume you can
-   access 10.37.49.28 and and the pathway /app/test.
+   inside 20.37.49.28://app/test on ITx-acq VPCx? Assume you can
+   access 20.37.49.28 and the pathway /app/test.
       
    
 
