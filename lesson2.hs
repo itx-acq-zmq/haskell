@@ -66,4 +66,24 @@
     merged to `master` on the remote repo then what git command allows you
     to delete the `feature_stash` branch after confirming the local `master`
     [that you just pushed to repo!] matches it.
-   
+    
+Solution: 
+1. git init --bare idm-acq-mspc.git
+2. git status
+3. git config --global user.name "Joseph Skabaldianko"
+   git config --global user.email "jska@email.service.com"
+4. git log itx-acq-zmq.c
+5. [1]git add itx-acq-zmq.c
+   [2]git commit -m "Feature added." itx-acq-zmq.c
+   [3]git push <repo name> <branch name>
+6. [1]TRUE
+   [2].git directory
+   [3]--shared=all
+7. TRUE
+8. git push origin feature_stash 
+9. [1]git checkout master  
+   [2]git merge feature_stash
+   [3]git push origin master
+   [4]git diff feature_stash master
+10.[1]git branch -d feature_stash
+   [2]git push
